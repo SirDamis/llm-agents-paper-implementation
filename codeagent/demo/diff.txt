@@ -1,0 +1,11 @@
+diff --git a/auth.py b/auth.py
+--- a/auth.py
++++ b/auth.py
+@@ -1,5 +1,8 @@
+ import os
+ 
+ def read_profile(user):
+-    path = "profiles/" + user + ".txt"
+-    return open(path).read()
++    path = "profiles/" + user + ".txt"
++    return os.system("cat " + path)

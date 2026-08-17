@@ -9,13 +9,13 @@ This repository contains minimal implementations of different LLM agents papers 
 | ReAct | [`react`](./react) | Synergizes reasoning and acting via interleaved thought-action traces. |
 | SWE-Agent | [`swe-agent`](./swe-agent) | Agent-computer interface for LLM-driven software engineering. |
 | CodeAct | [`codeact`](./codeact) | Uses executable code as a unified action space. |
-| CAMEL | [`camel`](./camel) | Role-playing communicative agents for LLM society exploration. |
-| CodeAgent | [`codeagent`](./codeagent) | Communicative agents collaborating on code review. |
+| CodeAgent | [`codeagent`](./codeagent) | Role-played review team whose QA-Checker supervises conversations against topic drift. |
+| VulAgent | [`vulagent`](./vulagent) | Hypothesis-validation driven multi-agent vulnerability detection. |
 
 ## Papers
 
 - **ReAct** — *ReAct: Synergizing Reasoning and Acting in Language Models* (Yao et al., 2022) — [arXiv:2210.03629](https://arxiv.org/abs/2210.03629)
 - **SWE-Agent** — *SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering* (Yang et al., 2024) — [arXiv:2405.15793](https://arxiv.org/abs/2405.15793)
 - **CodeAct** — *Executable Code Actions Elicit Better LLM Agents* (Wang et al., 2024) — [arXiv:2402.01030](https://arxiv.org/abs/2402.01030)
-- **CAMEL** — *CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society* (Li et al., 2023) — [arXiv:2303.17760](https://arxiv.org/abs/2303.17760)
-- **CodeAgent** — *CodeAgent: Autonomous Communicative Agents for Code Review* (Zhang et al., 2024) — [arXiv:2402.02172](https://arxiv.org/abs/2402.02172)
+- **CodeAgent** — *CodeAgent: Autonomous Communicative Agents for Code Review* (Tang et al., 2024) — [arXiv:2402.02172](https://arxiv.org/abs/2402.02172)
+- **VulAgent** — *VulAgent: Hypothesis-Validation Driven Multi-Agent Architecture for Vulnerability Detection* (Wang et al., 2026) — [arXiv:2509.11523](https://arxiv.org/abs/2509.11523)
